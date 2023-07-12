@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato-regular.woff2";
+  src: url("./fonts/Lato-regular.woff2");
+}
+
+@font-face {
+  font-family: "Lato-bold.woff2";
+  src: url("./fonts/Lato-bold.woff2");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #1e212c;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1640px;
+}
