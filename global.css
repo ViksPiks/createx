@@ -5,19 +5,23 @@
 }
 
 @font-face {
-  font-family: "Lato-regular.woff2";
-  src: url("./fonts/Lato-regular.woff2");
+  font-family: "Ubuntu-Bold.woff2", sans-serif;
+  src: url("./fonts/Ubuntu-Bold.woff2");
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: "Lato-bold.woff2";
-  src: url("./fonts/Lato-bold.woff2");
+  font-family: "Ubuntu-Regular.woff2", sans-serif;
+  src: url("./fonts/Ubuntu-Regular.woff2");
+  font-weight: 400;
 }
 
 body {
   margin: 0;
   padding: 0;
   color: #1e212c;
+  font-family: "Ubuntu-Regular", sans-serif;
+  font-size: 18px;
 }
 
 a {
@@ -47,5 +51,5 @@ ul {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1640px;
+  max-width: 1920px;
 }
