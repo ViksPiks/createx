@@ -5,14 +5,14 @@
 }
 
 @font-face {
-  font-family: "Ubuntu-Bold.woff2", sans-serif;
-  src: url("./fonts/Ubuntu-Bold.woff2");
+  font-family: "Ubuntu-Bold", sans-serif;
+  src: url("./assets/fonts/Ubuntu-Bold.woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Ubuntu-Regular.woff2", sans-serif;
-  src: url("./fonts/Ubuntu-Regular.woff2");
+  font-family: "Ubuntu-Regular", sans-serif;
+  src: url("./assets/fonts/Ubuntu-Regular.woff2");
   font-weight: 400;
 }
 
@@ -51,5 +51,5 @@ ul {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1920px;
+  max-width: 1240px;
 }
