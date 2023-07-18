@@ -1,4 +1,4 @@
-.main-header {
+#header .header-capture {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,7 +102,7 @@
 }
 
 @media (max-width: 1095px) {
-  .main-header {
+  #header .header-capture {
     flex-wrap: wrap;
   }
 }
