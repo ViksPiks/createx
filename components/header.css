@@ -26,7 +26,8 @@
   text-transform: capitalize;
 }
 
-.contact-us-capture {
+.contact-us {
+  font-style: normal;
   display: flex;
   gap: 36px;
 }
