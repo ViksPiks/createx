@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: "Ubuntu-Bold", sans-serif;
+  font-family: "Ubuntu-Bold";
   src: url("./assets/fonts/Ubuntu-Bold.woff2");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Ubuntu-Regular", sans-serif;
+  font-family: "Ubuntu-Regular";
   src: url("./assets/fonts/Ubuntu-Regular.woff2");
   font-weight: 400;
 }
