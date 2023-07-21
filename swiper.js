@@ -11,7 +11,7 @@ const swiper = new Swiper(".jumbotron", {
     clickable: true,
     renderBullet: function (index, className) {
       return `
-        <label class="${className}" for="slide-${index + 1}">
+        <label class="${className}">
           <span>0${index + 1}</span>
         </label>
       `;
