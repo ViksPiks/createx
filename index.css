@@ -137,3 +137,22 @@
     font-size: 30px;
   }
 }
+
+section.company-video {
+  padding: 100px 0;
+}
+
+.company-video-heading {
+  font-size: 46px;
+  font-family: "Ubuntu-Bold", sans-serif;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.company-video-slogan {
+  text-align: center;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 60px;
+}

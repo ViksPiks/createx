@@ -54,7 +54,8 @@ ul {
   max-width: 1240px;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
