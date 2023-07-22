@@ -62,3 +62,7 @@ video {
 button {
   border: none;
 }
+
+textarea {
+  font-family: inherit;
+}
