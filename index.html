@@ -195,6 +195,41 @@
         </div>
       </section>
 
+      <section class="ask-us-question">
+        <div class="container">
+          <div class="ask-us-question-form-wrapper">
+            <h2 class="ask-us-question-heading">
+              Want to know more? Ask us a question:
+            </h2>
+            <form method="post" class="ask-us-question-form">
+              <div class="ask-us-question-form-element">
+                <label for="name">Name*</label>
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+              <div class="ask-us-question-form-element">
+                <label for="phone">Phone*</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  pattern="\d*"
+                  placeholder="Your phone"
+                  required
+                />
+              </div>
+              <div class="ask-us-question-form-element">
+                <label for="msg">Message*</label>
+                <textarea
+                  id="msg"
+                  placeholder="Your message"
+                  required
+                ></textarea>
+              </div>
+              <button class="ask-us-question-form-btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
       <section class="send-request">
         <div class="container">
           <div class="send-request-form-wrapper">
