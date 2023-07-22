@@ -193,6 +193,44 @@
           </ul>
         </div>
       </section>
+
+      <section class="send-request">
+        <div class="container">
+          <div class="send-request-form-wrapper">
+            <h2 class="send-request-form-heading">
+              A quick way to discuss details
+            </h2>
+
+            <form method="post" class="send-request-form">
+              <label for="name">Name*</label>
+              <input type="text" id="name" placeholder="Name" />
+              <label for="phone">Enter a phone number:</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="123-45-678"
+                pattern="\d*"
+                required
+              />
+              <label for="email">Email*</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Your email address"
+                required
+              />
+              <label for="msg">Message*</label>
+              <textarea id="msg" placeholder="Your message" required></textarea>
+              <input type="checkbox" id="agree" required />
+              <label for="agree">
+                I agree to receive communications from Createx Construction
+                Bureau.
+              </label>
+              <button class="send-request-btn">Send request</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer id="footer">
