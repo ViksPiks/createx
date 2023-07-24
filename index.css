@@ -381,7 +381,7 @@ section.our-services {
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 700px) {
   .learn-more-wrapper {
     flex-direction: column;
   }
@@ -511,5 +511,137 @@ section.selected-projects {
   }
   .selected-projects-card .card-description h4 {
     font-size: 18px;
+  }
+}
+
+section.news {
+  padding: 90px 0 125px;
+}
+
+.news-heading {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: "Ubuntu-Bold";
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.news-wrapper {
+  display: grid;
+  grid-template-columns: 58% auto;
+  gap: 30px;
+  margin-bottom: 85px;
+}
+
+.news-card:first-child {
+  grid-row: 1 / 3;
+}
+
+.news-wrapper .news-card {
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.news-card .news-img {
+  width: 100%;
+}
+
+.news-card .news-card-description {
+  padding: 24px;
+}
+
+.news-card .news-card-description h3 {
+  font-family: "Ubuntu-bold";
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 12px;
+}
+
+.news-card .news-card-description h3:hover {
+  color: #ff5a30;
+}
+
+.news-metadata {
+  color: #787a80;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.news-metadata span {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.news-metadata span.devider {
+  border-right: 1px solid #787a80;
+  height: 12px;
+}
+
+.news-card .news-card-description p {
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 12px;
+  color: #424551;
+  margin-top: 16px;
+}
+
+.news-card:not(:first-child) p {
+  display: none;
+}
+
+.explore-posts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.explore-posts-wrapper .explore-posts-txt {
+  font-family: "Ubuntu-Bold";
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.explore-posts-wrapper .view-news-btn {
+  color: #f4f5f6;
+  border-radius: 4px;
+  background-color: #ff5a30;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-family: "Ubuntu-Bold";
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 1200px) {
+  .news-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news-card:not(:first-child) p {
+    display: block;
+  }
+
+  .news-card:first-child {
+    grid-row: 1 / 2;
+  }
+}
+
+@media (max-width: 1200px) {
+  .news-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .explore-posts-wrapper {
+    flex-direction: column;
   }
 }
