@@ -604,6 +604,73 @@ section.clients-reviews {
   }
 }
 
+section.doughnut-charts {
+  padding: 120px 0;
+}
+
+.doughnut-charts-heading {
+  text-align: center;
+  font-family: "Ubuntu-Bold";
+  font-size: 46px;
+  line-height: 130%;
+  margin-bottom: 60px;
+}
+
+.doughnut-charts-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.chart-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: 20px;
+}
+
+.doughnut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #424551;
+  height: 148px;
+  width: 148px;
+  font-family: "Ubuntu-Bold";
+  font-size: 32px;
+}
+
+.doughnut.first {
+  border: 7px solid #ff5a30;
+}
+
+.doughnut.second {
+  border: 7px solid #f52f6e;
+}
+
+.doughnut.third {
+  border: 7px solid #5a87fc;
+}
+
+.doughnut.fourth {
+  border: 7px solid #03cea4;
+}
+
+@media (max-width: 875px) {
+  .doughnut-charts-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 460px) {
+  .doughnut-charts-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 section.news {
   padding: 90px 0 125px;
 }
